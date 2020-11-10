@@ -24,7 +24,7 @@ class TransaksiDetailFactory extends Factory
         return [
             'transaksi_id' => 1,
             'barang_id' => 1,
-            'jumlah' => $this->faker->numberBetween(1, 1000),
+            'jumlah' => $this->faker->numberBetween(1, 100),
             'harga_beli' => $this->faker->randomNumber(),
             'discount' => 0
         ];

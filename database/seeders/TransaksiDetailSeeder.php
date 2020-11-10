@@ -19,16 +19,16 @@ class TransaksiDetailSeeder extends Seeder
         TransaksiDetail::truncate();
         Transaksi::truncate();
 
-        $barangs = Barang::factory(5)->create();
+        $barangs = Barang::where('id', '<=', '50')->get();
 
         foreach ($barangs as $barang){
-            TransaksiDetail::factory(5)->create(['barang_id' => $barang->id]);
+            TransaksiDetail::factory(2)->create(['barang_id' => $barang->id]);
         }
 
-        $transaksis = Transaksi::factory(10)->create();
+        $transaksis = Transaksi::factory(15)->create();
 
         foreach ($transaksis as $transaksi){
-            TransaksiDetail::factory(5)->create(['transaksi_id' => $transaksi->id]);
+            TransaksiDetail::factory(3)->create(['transaksi_id' => $transaksi->id]);
         }
     }
 }
