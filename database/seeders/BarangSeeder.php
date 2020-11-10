@@ -15,6 +15,9 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
+        Barang::truncate();
+        Kategori::truncate();
+
         $kategoris = Kategori::factory(10)->create();
 
         foreach ($kategoris as $kategori){
