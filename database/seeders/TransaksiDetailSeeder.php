@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Barang;
 use App\Models\Transaksi;
-use App\Models\Transaksi_Detail;
+use App\Models\TransaksiDetail;
 use Illuminate\Database\Seeder;
 
 class TransaksiDetailSeeder extends Seeder

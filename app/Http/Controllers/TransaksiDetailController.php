@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Transaksi_Detail;
+use App\Models\TransaksiDetail;
 use Illuminate\Http\Request;
 
 class TransaksiDetailController extends Controller
@@ -41,10 +41,10 @@ class TransaksiDetailController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Transaksi_Detail  $transaksi_Detail
+     * @param  \App\Models\TransaksiDetail  $transaksiDetail
      * @return \Illuminate\Http\Response
      */
-    public function show(Transaksi_Detail $transaksi_Detail)
+    public function show(TransaksiDetail $transaksiDetail)
     {
         //
     }
@@ -52,10 +52,10 @@ class TransaksiDetailController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Transaksi_Detail  $transaksi_Detail
+     * @param  \App\Models\TransaksiDetail  $transaksiDetail
      * @return \Illuminate\Http\Response
      */
-    public function edit(Transaksi_Detail $transaksi_Detail)
+    public function edit(TransaksiDetail $transaksiDetail)
     {
         //
     }
@@ -64,10 +64,10 @@ class TransaksiDetailController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Transaksi_Detail  $transaksi_Detail
+     * @param  \App\Models\TransaksiDetail  $transaksiDetail
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Transaksi_Detail $transaksi_Detail)
+    public function update(Request $request, TransaksiDetail $transaksiDetail)
     {
         //
     }
@@ -75,10 +75,10 @@ class TransaksiDetailController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Transaksi_Detail  $transaksi_Detail
+     * @param  \App\Models\TransaksiDetail  $transaksiDetail
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Transaksi_Detail $transaksi_Detail)
+    public function destroy(TransaksiDetail $transaksiDetail)
     {
         //
     }

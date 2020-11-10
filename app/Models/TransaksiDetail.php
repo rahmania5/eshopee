@@ -9,7 +9,7 @@ class TransaksiDetail extends Model
 {
     use HasFactory;
 
-    protected $table = "transaksi_detail";
+    protected $table = "transaksi_details";
 
     public function transaksi(){
         return $this->belongsTo('App\Models\Transaksi');

@@ -13,7 +13,7 @@ class CreateTransaksiDetailsTable extends Migration
      */
     public function up()
     {
-        Schema::create('transaksi__details', function (Blueprint $table) {
+        Schema::create('transaksi_details', function (Blueprint $table) {
             $table->id();
             $table->foreignId('transaksi_id');
             $table->foreignId('barang_id');
@@ -31,6 +31,6 @@ class CreateTransaksiDetailsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('transaksi__details');
+        Schema::dropIfExists('transaksi_details');
     }
 }

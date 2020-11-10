@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Transaksi_Detail;
+use App\Models\TransaksiDetail;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TransaksiDetailFactory extends Factory
@@ -12,7 +12,7 @@ class TransaksiDetailFactory extends Factory
      *
      * @var string
      */
-    protected $model = Transaksi_Detail::class;
+    protected $model = TransaksiDetail::class;
 
     /**
      * Define the model's default state.
